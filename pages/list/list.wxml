@@ -1,0 +1,12 @@
+<import src="list-item/list-item-template.wxml" />
+<view class="m-hotAQ">
+    <block wx:for="{{faqListData}}" wx:key="unique" wx:for-item="listItem">
+        <block wx:if="{{listItem.key == pageKey}}">
+            <view class="list">
+                <block wx:for="{{listItem.list}}" wx:key="unique" wx:for-item="faqItem">
+                    <template is="listItem" data="{{faqItem}}"/>
+                </block>
+            </view>
+        </block>
+    </block>
+</view>

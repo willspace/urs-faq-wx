@@ -1,0 +1,52 @@
+
+<view class="m-loading loading0 j-loading0">
+    <view class="load-container">
+        <view class="loader"></view>
+    </view>
+</view>
+<view>
+    <swiper catchtap="onFaqClick" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+        <swiper-item>
+            <image src="https://gj.reg.163.com/faq/pub/res/images/banner-1.png" data-postId="1"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://gj.reg.163.com/faq/pub/res/images/banner-2.png" data-postId="2"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="https://gj.reg.163.com/faq/pub/res/images/banner-3.png" data-postId="3"></image>
+        </swiper-item>
+    </swiper>
+    <view class="m-nav">
+        <view class="item" data-listid="repair" catchtap="onNavClick">
+            <view class="ic img-sprite ic-repair"></view>
+            <text class="p-tlt">帐号修复</text>
+        </view>
+        <view class="item" data-listid="lock" catchtap="onNavClick">
+            <view class="ic img-sprite ic-lock"></view>
+            <text class="p-tlt">密保相关</text>
+        </view>
+        <view class="item" data-listid="clazz" catchtap="onNavClick">
+            <view class="ic img-sprite ic-clazz"></view>
+            <text class="p-tlt">安全学堂</text>
+        </view>
+        <view class="item" data-listid="acc" catchtap="onNavClick">
+            <view class="ic img-sprite ic-acc"></view>
+            <text class="p-tlt">网易帐号</text>
+        </view>
+    </view>
+      <!-- hot qa -->
+    <view class="m-hotAQ">
+        <view class="list">
+        <view class="item" catchtap="onFaqClick">如何修改/找回密码？</view>
+        <view class="item" catchtap="onFaqClick">如何修改身份信息？</view>
+        <view class="item" catchtap="onFaqClick">如何更换安全手机/关联手机？</view>
+        <view class="item" catchtap="onFaqClick">为什么帐号修复多次无法成功？</view>
+        <view class="item" catchtap="onFaqClick">将军令丢了怎么办？</view>
+        </view>
+    </view>
+    <!--END hot qa -->
+
+    <view class="b-feedback" catchtap="onFeedbackClick">
+        <view class="text"><i class="img-sprite"></i>问题反馈</view>
+    </view>
+</view>

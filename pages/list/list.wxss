@@ -1,0 +1,7 @@
+
+.m-hotAQ{margin:19.6rpx 0;background:#fff;border-top:solid 1px #e0e0e0;border-bottom:solid 1px #e0e0e0;}
+.m-hotAQ .list{padding-left:42rpx;}
+.m-hotAQ .item{position:relative;border-bottom:solid 1px #ddd;overflow:hidden;z-index:0;}
+.m-hotAQ .item:after{position:absolute;content:" ";top:45.64rpx;right:20rpx;height:33.6rpx;width:48rpx;background:url("https://gj.reg.163.com/faq/pub/res/images/sprite.png") no-repeat;background-position:1000px 1000px;background-size:780rpx 112rpx;background-position:-420rpx -53.2rpx;z-index:-1;}
+.m-hotAQ .item:last-child{border:none;}
+.m-hotAQ .item text{display:block;padding-right:61.6rpx;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:60px;}

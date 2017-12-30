@@ -1,0 +1,3 @@
+<template name="listItem">
+    <view class="item" data-key="{{faqItem[0]}}" catchtap="onFaqClick"><text>{{faqItem[1]}}</text></view>
+</template>
